@@ -1,0 +1,57 @@
+# OpenClaw Workspace Backup Ignore
+
+# Logs and temp files
+*.log
+*.tmp
+.cache/
+
+# Large media files
+media/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+
+# Audio samples and voice data
+voice-lab/samples/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Node modules and dependencies
+node_modules/
+*.pyc
+__pycache__/
+.venv/
+
+# Sensitive data (API keys should be in env, not files)
+*.key
+*.pem
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup duplicates
+*.backup
+*.bak
+
+# Embedded git repositories
+voice-lab/CosyVoice/
+voice-lab/models/
+voice-lab/ref/
+
+# Large data directories
+data/
+datasets/
+weights/

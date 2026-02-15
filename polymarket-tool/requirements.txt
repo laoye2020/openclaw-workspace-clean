@@ -1,0 +1,16 @@
+# Polymarket极速交易工具
+# ⚡ Real-time trading interface for Polymarket
+
+# Core Dependencies
+streamlit>=1.28.0
+py_clob_client>=1.0.0
+websocket-client>=1.6.0
+requests>=2.31.0
+
+# Wallet & Crypto
+eth_account>=0.10.0
+web3>=6.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+pandas>=2.0.0

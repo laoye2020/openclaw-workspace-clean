@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily": {
+      "version": "1.0.0",
+      "installedAt": 1770439989629
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1770440484044
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1770440490633
+    },
+    "session-logs": {
+      "version": "1.0.0",
+      "installedAt": 1770441626965
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1770441629686
+    },
+    "ai-notes-of-video": {
+      "version": "1.0.0",
+      "installedAt": 1770443286222
+    },
+    "desktop-control": {
+      "version": "1.0.0",
+      "installedAt": 1770443299329
+    },
+    "god-mode": {
+      "version": "0.1.0",
+      "installedAt": 1770443302795
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770470782415
+    },
+    "agent-autonomy-kit": {
+      "version": "1.0.0",
+      "installedAt": 1770470900273
+    },
+    "openclaw-mem": {
+      "version": "2.1.0",
+      "installedAt": 1770472486463
+    },
+    "chromadb-memory": {
+      "version": "1.0.0",
+      "installedAt": 1770516833566
+    },
+    "jarvis-voice": {
+      "version": "1.0.0",
+      "installedAt": 1770780714296
+    }
+  }
+}

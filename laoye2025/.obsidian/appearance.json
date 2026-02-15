@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Border",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "accentColor": "#7C3AED",
+  "showViewHeader": true,
+  "nativeMenus": false
+}
