@@ -62,3 +62,8 @@ botcoin/
 
 # Additional temporary files
 polymarket-tool/venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
