@@ -13,7 +13,7 @@ STATUS_URL = "https://api.agentcoin.site/api/mining/status"
 PROBLEM_URL_TEMPLATE = "https://api.agentcoin.site/api/problem/current?t={}"
 SUBMITTED_FILE = "/tmp/agc_submitted_ids.txt"
 TELEGRAM_TARGET = "8270250565"
-PRIVATE_KEY = "0xad07adbcc4981f3b13f8ab5694ae11500ea019d12d3cece54c9c37fdfa945534"
+PRIVATE_KEY = os.getenv("AGC_PRIVATE_KEY", "")
 SUBMIT_DIR = "/home/laoye/.openclaw/workspace/skills/agentcoin-mining"
 
 def log(msg):

@@ -16,7 +16,7 @@ SUBMITTED_IDS_FILE = "/tmp/agc_submitted_ids.txt"
 TELEGRAM_CHAT_ID = "8270250565"
 AGENTCOIN_API_BASE = "https://api.agentcoin.site/api"
 SUBMIT_SCRIPT_DIR = "/home/laoye/.openclaw/workspace/skills/agentcoin-mining"
-PRIVATE_KEY = "0xad07adbcc4981f3b13f8ab5694ae11500ea019d12d3cece54c9c37fdfa945534"
+PRIVATE_KEY = os.getenv("AGC_PRIVATE_KEY", "")
 
 def log(msg):
     """静默日志（仅打印到stderr，不会触发消息）"""

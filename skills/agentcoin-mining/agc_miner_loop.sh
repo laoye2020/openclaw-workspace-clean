@@ -83,7 +83,7 @@ EOF
     
     # 5. 提交答案
     cd /home/laoye/.openclaw/workspace/skills/agentcoin-mining
-    SUBMIT_OUTPUT=$(AGC_PRIVATE_KEY="0xad07adbcc4981f3b13f8ab5694ae11500ea019d12d3cece54c9c37fdfa945534" python3 submit.py "$PROBLEM_ID" "$ANSWER" 2>&1)
+    SUBMIT_OUTPUT=$(AGC_PRIVATE_KEY="${AGC_PRIVATE_KEY:-}" python3 submit.py "$PROBLEM_ID" "$ANSWER" 2>&1)
     SUBMIT_EXIT_CODE=$?
     
     echo "提交输出: $SUBMIT_OUTPUT"

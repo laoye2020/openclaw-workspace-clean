@@ -16,7 +16,7 @@ STATUS_URL = "https://api.agentcoin.site/api/mining/status"
 PROBLEM_URL = "https://api.agentcoin.site/api/problem/current"
 DEDUP_FILE = "/tmp/agc_submitted_ids.txt"
 SUBMIT_DIR = "/home/laoye/.openclaw/workspace/skills/agentcoin-mining"
-PRIVATE_KEY = "0xad07adbcc4981f3b13f8ab5694ae11500ea019d12d3cece54c9c37fdfa945534"
+PRIVATE_KEY = os.getenv("AGC_PRIVATE_KEY", "")
 TELEGRAM_CHAT = "8270250565"
 
 # 静默日志（用于调试，不发送给用户）
