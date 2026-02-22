@@ -1,0 +1,39 @@
+[DogScout] Top1 | Score 91.35/100
+Token: DOGA (0xtokenA)
+Pair: 0xpairA | Dex: uniswap
+Liquidity: $120,000 | Txns(H1): 103
+Momentum(H1): 18.00% | Volume(H24): $350,000
+Risk flags: none
+Link: https://dexscreener.com/base/0xpairA
+
+[DogScout] Top2 | Score 82.27/100
+Token: DOGB (0xtokenB)
+Pair: 0xpairB | Dex: aerodrome
+Liquidity: $81,000 | Txns(H1): 86
+Momentum(H1): 9.00% | Volume(H24): $162,000
+Risk flags: none
+Link: https://dexscreener.com/base/0xpairB
+
+[DogScout] Top3 | Score 70.14/100
+Token: DOGE2 (0xtokenE)
+Pair: 0xpairE | Dex: aerodrome
+Liquidity: $53,000 | Txns(H1): 49
+Momentum(H1): 28.00% | Volume(H24): $91,000
+Risk flags: none
+Link: https://dexscreener.com/base/0xpairE
+
+[DogScout] Top4 | Score 64.88/100
+Token: DOGD (0xtokenD)
+Pair: 0xpairD | Dex: sushiswap
+Liquidity: $26,000 | Txns(H1): 26
+Momentum(H1): -8.00% | Volume(H24): $62,000
+Risk flags: none
+Link: https://dexscreener.com/base/0xpairD
+
+[DogScout] Top5 | Score 58.67/100
+Token: DOGC (0xtokenC)
+Pair: 0xpairC | Dex: uniswap
+Liquidity: $34,000 | Txns(H1): 58
+Momentum(H1): 82.00% | Volume(H24): $98,000
+Risk flags: none
+Link: https://dexscreener.com/base/0xpairC

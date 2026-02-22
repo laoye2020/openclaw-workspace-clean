@@ -66,6 +66,13 @@
 
 ## 🌙 夜间维护记录
 
+**最近维护:** 2026-02-22 03:00
+- ✅ GitHub 备份完成 (无新变更)
+- ⚠️ 技能列表检查: clawhub 暂无 --outdated 参数，改用 `clawhub list`
+- ✅ 已安装技能: 13个 (tavily, github, obsidian, session-logs, skill-creator, ai-notes-of-video, desktop-control, god-mode, find-skills, agent-autonomy-kit, openclaw-mem, chromadb-memory, jarvis-voice)
+- ✅ 临时文件清理完成
+- ✅ 系统状态正常
+
 **最近维护:** 2026-02-21 03:00
 - ✅ GitHub 备份完成 (12个文件变更，新增aicash配置和memory)
 - ⚠️ 技能列表检查: `clawhub list --outdated` 参数不可用 (使用 `clawhub list` 替代)
