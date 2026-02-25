@@ -67,3 +67,4 @@ polymarket-tool/venv/
 *.db
 *.sqlite
 *.sqlite3
+ta-telegram-bot/
