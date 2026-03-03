@@ -30,33 +30,41 @@ For direct messages from the human (not heartbeat polls), apply these rules firs
    - Do not give direct trade execution advice.
 4. If no prefix is provided, respond in normal `main` coordinator mode.
 
-## Memory
+## Memory — 两套系统，各管各的
 
-You wake up fresh each session. These files are your continuity:
+你有两套记忆，别搞混：
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
-- **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+### mem0（向量记忆）— 自动的，不用管
 
-Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
+- **干什么**：自动捕捉对话中的事实和偏好，语义搜索
+- **存哪里**：Qdrant 向量数据库
+- **你要做的**：什么都不用做，它自动跑
+- **适合存**：零散的事实（"老爷喜欢绿茶"、"止损1.7%"）
+- **不适合存**：结构化的知识、流程、教训
 
-### 🧠 MEMORY.md - Your Long-Term Memory
+### 文件记忆（memory/ 目录）— 手动的，你负责维护
 
-- **ONLY load in main session** (direct chats with your human)
-- **DO NOT load in shared contexts** (Discord, group chats, sessions with other people)
-- This is for **security** — contains personal context that shouldn't leak to strangers
-- You can **read, edit, and update** MEMORY.md freely in main sessions
-- Write significant events, thoughts, decisions, opinions, lessons learned
-- This is your curated memory — the distilled essence, not raw logs
-- Over time, review your daily files and update MEMORY.md with what's worth keeping
+- **干什么**：存结构化的知识、教训、决策、流程
+- **存哪里**：memory/ 目录下的 .md 文件
+- **你要做的**：主动写、主动更新、主动清理过期内容
+- **适合存**：
+  - 每日记录 → `memory/YYYY-MM-DD.md`（简洁，不超30行，格式见 index.md）
+  - 主题知识 → `memory/trading/`、`memory/infrastructure/` 等
+  - 进化反思 → `memory/evolution/weekly-YYYY-MM-DD.md`
+  - 决策记录 → `memory/workflows/todos.md`
 
-### 📝 Write It Down - No "Mental Notes"!
+### 写下来！不要"记在脑子里"
 
-- **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
-- "Mental notes" don't survive session restarts. Files do.
-- When someone says "remember this" → update `memory/YYYY-MM-DD.md` or relevant file
-- When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
-- When you make a mistake → document it so future-you doesn't repeat it
-- **Text > Brain** 📝
+- 想记住的事 → 写文件
+- 犯了错 → 写教训到日报
+- 学到新东西 → 更新对应的主题文件
+- "记在脑子里"等于没记，下次醒来全忘了
+
+### 安全规则
+
+- MEMORY.md 和 memory/ 只在主会话加载（直接对话）
+- 群聊/共享会话不加载个人记忆
+- 超过30天的日报归档到 `memory/archive/`
 
 ## Safety
 

@@ -1,11 +1,9 @@
 {
   "lastChecks": {
-    "backup": 1738953600,
-    "skillUpdates": null,
-    "tempCleanup": null,
-    "morningBriefing": 1738992825,
-    "noonCheck": 1738994880,
-    "eveningSummary": null
+    "system": null,
+    "memory": null,
+    "tasks": null
   },
-  "lastHeartbeat": 1738994880
+  "lastHeartbeat": null,
+  "note": "Reset on 2026-03-03 during memory system overhaul. Heartbeat will populate on next cycle."
 }

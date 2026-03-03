@@ -1,29 +1,24 @@
-# 🎯 Active TODOs
+# Active TODOs
 
-## High Priority
-- [ ] Develop Polymarket arbitrage bot
-- [ ] Optimize trading strategy automation
+## In Progress
+- [ ] Polymarket 套利机器人开发
+- [ ] 交易策略自动化优化
+- [ ] 豆芽自主进化系统上线验证
 
 ## Completed
-- [x] Update OpenClaw to 2026.2.18 (verified)
-- [x] Split MEMORY.md by topic
-- [x] Deploy TA Telegram bot with LLM analysis
+- [x] OpenClaw 从中文版迁移到标准版 (2026-03-03, v2026.3.2)
+- [x] 代理端口从 10808 更新到 7897 (2026-03-03)
+- [x] SOUL.md v3.0 重写 + 进化协议 (2026-03-03)
+- [x] 记忆系统拆分为主题目录 (2026-02-23)
+- [x] TA Telegram bot 部署 (2026-02-14)
+- [x] 语音克隆项目完成 (2026-02-14)
+- [x] mem0 向量记忆安装 (2026-02-08)
 
-## Decisions Made
-
-### Memory System (DEC-001)
-- **Decision:** Use openclaw-mem for long/short-term memory
-- **Reason:** Need semantic search, auto-organization, session compression
-- **Date:** 2026-02-07
-
-### Life Planning (DEC-002)
-- **Decision:** Launch "5-Year Plan" life restart system
-- **Goals:**
-  1. Financial freedom: 100M assets
-  2. Perfect physique: 15% body fat
-  3. Passive income: 250k/month
-- **System:** OKR + Infinite breakdown + AI tracking
-- **Date:** 2026-02-07
+## Decisions
+- **DEC-001**: 使用 openclaw-mem0 做语义记忆 (2026-02-07)
+- **DEC-002**: 五年计划生活系统 (2026-02-07)
+- **DEC-003**: 上下文压缩改为 aggressive 模式 (2026-02-24)
+- **DEC-004**: OpenClaw 从中文版切换到标准版 (2026-03-03)
 
 ---
-*Type: TODO-001, DEC-001, DEC-002*
+*Last updated: 2026-03-03*

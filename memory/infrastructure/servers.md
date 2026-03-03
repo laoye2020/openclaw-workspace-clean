@@ -26,10 +26,10 @@
 - **Status:** Self-hosted, zero quota anxiety
 
 ### Model Configuration
-- **Default:** kimi-coding/k2p5
-- **Fallback:** openai-codex/gpt-5.3-codex
-- **Context:** 400k tokens
-- **Compaction:** safeguard mode
+- **Default:** minimax-portal/MiniMax-M2.5
+- **Fallback:** kimi-coding/k2p5
+- **Context:** 200k tokens
+- **Compaction:** aggressive mode
 
 ---
 *Type: FACT-003, FACT-006, FACT-007, infrastructure memory*

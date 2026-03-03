@@ -3,7 +3,7 @@
 ## Main Telegram Bot (@laoye001_bot)
 - **Username:** @laoye001_bot
 - **Name:** laoye5555
-- **Proxy:** http://127.0.0.1:10808 (Clash/V2ray)
+- **Proxy:** http://127.0.0.1:7897 (Clash Verge/Mihomo)
 - **Status:** Running with auto-restart
 
 ## TA Trading Bot
